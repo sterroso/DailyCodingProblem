@@ -24,7 +24,7 @@ export const MAX_STEPS = 99999;
  * given a max number of steps that can be climbed at a time (2 max by default).
  *
  * @param {number} steps The number of steps for a staircase.
- * @param {{configurations?: number[]}} options The list of all possible
+ * @param {{configurations?: [number]}} options The list of all possible
  * number of steps that can be climbed at a time. By default is [1, 2]:
  * one or two steps at a time.
  * @throws { Error } If the value provided for the _steps_ parameter is not
